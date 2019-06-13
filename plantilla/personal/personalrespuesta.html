@@ -10,20 +10,13 @@
     <title>Document</title>
 </head>
 <style>
-   .navg,
-        .btn-dark {
-            background-color: #454d66;
-        }
+    .navg {
+        background-color: #454d66;
+    }
 
-        .box-card {
-            position: relative;
-        }
-
-        .box-button {
-            position: absolute;
-            bottom: -16px;
-            right: 50px;
-        }
+    .box-card {
+        position: relative;
+    }
 </style>
 
 <body>
@@ -37,7 +30,7 @@
                 <div class="col-10">
                     <ul class="nav">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Inicio</a>
+                            <a class="nav-link active" href="inicio.html">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Publicacion</a>
@@ -53,33 +46,30 @@
     <main>
         <div class="container-fluid my-4">
             <div class="row">
-                <div class="col-6">
-                    <div class="col-12 box-card mb-5">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-2">
-                                        <img class="border rounded-circle" src="http://lorempixel.com/60/60/" alt="">
-                                    </div>
-                                    <div class="col-10">
-                                        <div class="col-12">
-                                            <h5>Lorem ipsum dolor sit amet</h5>
-                                            <p>
-                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique,
-                                                ipsam corrupti. Eaque nisi quasi earum quas perspiciatis nostrum iure
-                                                repellendus. Rem exercitationem autem repellendus hic quis! Repudiandae
-                                                laudantium hic ab!
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="col-8">
+                    <div class="col-12">
+                        <div class="col-12 text-center">
+                            <img class="border rounded-circle" src="http://lorempixel.com/150/150/" alt="">
                         </div>
-                        <div class="box-button">
-                            <button class="btn btn-dark rounded" onclick="location.href='personaldetalle.html'" >Ver</button>
+                        <div class="col-12 text-center mt-3">
+                            <i>Veniam Alias Dolores</i>
                         </div>
                     </div>
-
+                    <div class="col-12 my-4">
+                        <h5>Lorem ipsum dolor sit amet</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto quam voluptatibus fugit
+                            numquam in et veniam alias dolores quibusdam doloribus. Consequuntur ut expedita hic ducimus
+                            voluptatem tenetur? Reiciendis, ex perferendis!
+                        </p>
+                    </div>
+                    <div class="col-12">
+                        <b>Respuesta: </b>
+                        <textarea cols="115" rows="5"></textarea>
+                    </div>
+                    <div class="col-12 text-center mt-3">
+                        <button class="btn btn-success">Enviar respuesta</button>
+                    </div>
                 </div>
             </div>
         </div>

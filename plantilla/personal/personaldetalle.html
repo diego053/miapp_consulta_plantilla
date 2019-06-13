@@ -10,20 +10,26 @@
     <title>Document</title>
 </head>
 <style>
-   .navg,
-        .btn-dark {
-            background-color: #454d66;
-        }
+    .navg,
+    .btn-dark {
+        background-color: #454d66;
+    }
 
-        .box-card {
-            position: relative;
-        }
+    .box-card {
+        position: relative;
+    }
 
-        .box-button {
-            position: absolute;
-            bottom: -16px;
-            right: 50px;
-        }
+    .box-butto {
+        position: absolute;
+        bottom: -80px;
+        right: 30%;
+    }
+
+    .check {
+        position: absolute;
+        bottom: -80px;
+        right: 50%;
+    }
 </style>
 
 <body>
@@ -73,16 +79,25 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="box-butto">
+                                    <button class="btn btn-dark rounded" type="button"
+                                        onclick="location.href='personalrespuesta.html'">Enviar</button>
+                                </div>
+
+                            </div>
+                            <div class="check col-md-4">
+                                <label>Operador</label>
+                                <select class="form-control">
+                                    <option>Juan</option>
+                                    <option>Pedro</option>
+                                    <option>Maria</option>
+                                </select>
                             </div>
                         </div>
-                        <div class="box-button">
-                            <button class="btn btn-dark rounded" onclick="location.href='personaldetalle.html'" >Ver</button>
-                        </div>
-                    </div>
 
+                    </div>
                 </div>
             </div>
-        </div>
     </main>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

@@ -20,6 +20,27 @@
         }
     </style>
 </head>
+<style>
+    .navg-inicio,
+    .btn-dark {
+        background-color: #454d66;
+    }
+
+    .box-card {
+        position: relative;
+    }
+
+    .box-button {
+        position: absolute;
+        bottom: -16px;
+        right: 50px;
+    }
+    .box-butto{
+        position: absolute;
+        bottom: -100px;
+        right: 52%;
+        }
+</style>
 
 <body>
     <header>
@@ -32,7 +53,7 @@
                 <div class="col-10">
                     <ul class="nav">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Inicio</a>
+                            <a class="nav-link active" href="inicio.html">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Publicacion</a>
@@ -46,15 +67,73 @@
         </div>
     </header>
     <main>
-        <div class="container mt-4">
+        <div class="conatiner-fluid my-4">
             <div class="row">
-                <div class="col-12 col-md-6 mb-4">
-                    <div class="card">
-                        <small class="date">
-                            <i>10-06-2019</i>
-                        </small>
+                <div class="col-6">
+                    <div class="col-12 box-card mb-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img class="border rounded-circle" src="http://lorempixel.com/60/60/" alt="">
+                                    </div>
+                                    <div class="col-10">
+                                        <div class="col-12">
+                                            <h5>Lorem ipsum dolor sit amet</h5>
+                                            <p>
+                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique,
+                                                ipsam corrupti. Eaque nisi quasi earum quas perspiciatis nostrum iure
+                                                repellendus. Rem exercitationem autem repellendus hic quis! Repudiandae
+                                                laudantium hic ab!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-button">
+                            <button class="btn btn-dark rounded">Ver</button>
+                        </div>
                     </div>
                 </div>
+
+                <div class="col-6">
+                    <div class="col-12 box-card mb-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img class="border rounded-circle" src="http://lorempixel.com/60/60/" alt="">
+                                    </div>
+                                    <div class="col-10">
+                                        <div class="col-12">
+                                            <h5>Lorem ipsum dolor sit amet</h5>
+                                            <p>
+                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique,
+                                                ipsam corrupti. Eaque nisi quasi earum quas perspiciatis nostrum iure
+                                                repellendus. Rem exercitationem autem repellendus hic quis! Repudiandae
+                                                laudantium hic ab!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-button">
+                            <button class="btn btn-dark rounded">Ver</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-12 ">
+                    <div class="col-12 box-card">
+                            <div class="box-butto">
+                                <button class="btn btn-dark" onclick="location.href='formularioconsulta.html'">Nueva consulta</button>
+                            </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </main>
